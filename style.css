@@ -104,7 +104,117 @@
     font-size: 59px;
     font-weight: 500;
 }
-/* .postions{
+
+
+.main2{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    /* background-color: #c536a4; */
+    border: 2px solid #000;
+    margin-top: 30px;
+
+}
+.box1{
+    height: 700px;
+    width: 100%;
+    /* border: 2px solid #000; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.images_box{
+    height: 650px;
+    width: 50%;
+    /* border: 2px solid #000; */
+}
+.images_box img{
+    height: 100%;
+    width: 90%;
+    object-fit: cover;
+}
+.images_box2{
+    position: relative;
+    height: 550px;
+    width: 40%;
+    /* border: 2px solid #000; */
+    background-image: url(./153-1532288_pattern-dots-2.png);
+}
+.cricle-img{
+    border: 1px solid #ccc;
     position: absolute;
-    right: 100px;
-} */
+    height: 450px;
+    width: 80%;
+    border-radius: 50%;
+    background-color: #b4bd9b;
+    bottom: 22px;
+    right: 160px;
+    background-image: url(./g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+.interiordesign{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid #000; */
+    display: flex;
+    justify-content: space-around;
+}
+.Planninn{
+    width: 40%;
+    /* border: 1px solid #813535; */
+    /* line-height: 55px; */
+    display: flex;
+    flex-direction: column;
+}
+.Planninn h2{
+    font-size: 55px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.Planninn .dictum{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.Planninn .from{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.from a{
+    color: #000;
+}
+.Planninn2{
+    margin-top: 10px;
+    width: 40%;
+    /* border: 1px solid #813535; */
+
+}
+.Planninn2 p{
+    margin-top: 15px;
+    line-height:40px;
+    font-size: 22px;
+}
+.Planninn2 button{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding: 8px;
+    height: 55px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(119, 119, 37);
+    background-color: #ffff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.Planninn2:hover button{
+   
+    background-color: rgb(135, 135, 42) ;
+    color: #ffff;
+}
