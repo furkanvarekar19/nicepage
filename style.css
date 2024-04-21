@@ -111,7 +111,7 @@
     width: 90%;
     margin: auto;
     /* background-color: #c536a4; */
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     margin-top: 30px;
 
 }
@@ -289,4 +289,151 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.Latestmain{
+    height: 200px;
+    width: 100%;
+    /* background-color: #c536a4; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Latesttext h2{
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family: "Libre Baskerville", serif;
+
+}
+.Latesttext p{
+    margin-top: 10px;
+    font-size: 19px;
+    font-family: serif;
+}
+
+.main_projects{
+    height: 850px;
+    width: 100%;
+    /* background-color: #6a7c3e; */
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+}
+.projects1{
+    height: 240px;
+    width: 53%;
+    /* border: 1px solid #000; */
+    text-align: right;
+    float: left;
+   
+}
+.projects1 img{
+    height: 240px;
+    width: 40%;
+    object-fit: cover;
+    
+}
+.projects2{
+    height: 450px;
+    width: 42%;
+    /* border: 1px solid #000; */
+    float: right;
+}
+.projects2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.projects3{
+    height: 450px;
+    width: 43%;
+    /* border: 1px solid #000; */
+    /* text-align: right; */
+    float: left;
+    margin-left: 100px;
+    margin-top: 15px;
+    
+}
+.projects3 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.projects4{
+    height: 230px;
+    width: 43%;
+    /* border: 1px solid #000; */
+    text-align: left;
+    float: right;
+    margin-top: 10px;
+}
+.projects4 img{
+    height: 240px;
+    width: 40%;
+    object-fit: cover;
+}
+
+.three_box_main{
+    height: 430px;
+    width: 100%;
+    /* background-color: #ccc; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.three_box1{
+    height: 350px;
+    width: 28%;
+    /* border: 1px solid #000; */
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/pexels-marina-podrez-12744083.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+
+.three_box2{
+    height: 350px;
+    width: 28%;
+    /* border: 1px solid #000; */
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/medium-shot-woman-holding-vase6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.three_box3{
+    height: 350px;
+    width: 28%;
+    /* border: 1px solid #000; */
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/64564.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+
+.Contact_Us_main{
+    height: 700px;
+    width: 100%;
+    /* background-color: #6d4040; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.blur_div{
+    height: 180px;
+    width: 100%;
+    background-color: #6a7c3e;
+    filter:contrast(50%);  
+}
+.contact_img img{
+    height: 500px;
+}
+.contact_form{
+    height: 400px;
+    width: 30%;
+    border: 1px solid #000;
 }
