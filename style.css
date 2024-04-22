@@ -423,7 +423,7 @@
     filter:contrast(50%);  
 }
 .contact_img{
-    width: 30%;;
+    width: 40%;
 position: absolute;
 /* right: 0; */
 }
@@ -431,10 +431,12 @@ position: absolute;
     height: 500px;
     width: 100%;
 }
+
+/* .contact_form */
 .contact_form{
     position: absolute;
     height: 400px;
-    width: 30%;
+    width: 40%;
     border: 1px solid #000;
     background-color: #fff;
     left: 220px;
@@ -628,6 +630,34 @@ textarea{
     margin: 0;
   }
   
+@media  screen and (min-width: 900px){
+    .nav_icns{
+     width: 40%;
+    }
+    .envision .one{
+        width: 20%;
+    }
+    .practice p{
+        font-size: 30px;
+    }
+    .contact_form{
+       width: 45%;
+    }
+    .contact_img img{
+        width: 100%;
+    }
+    .Planninn h2{
+        font-size: 35px;
+    }
+    .practice p{
+        font-size: 30px;
+        line-height: 50px;
+
+    }
+}
+
+
+
   @media (max-width: 767px) {
     .footer {
       font-size: 14px;
